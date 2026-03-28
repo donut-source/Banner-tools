@@ -1,0 +1,13 @@
+# Never commit credentials
+.env
+
+# Never commit output CSVs (they contain customer data)
+scripts/output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
